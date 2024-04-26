@@ -39,8 +39,8 @@ const transporter = nodemailer.createTransport({
     port: 587,
     secure: false,
     auth: {
-        user: 'harshamandava695@gmail.com', // Your Gmail email address
-        pass: 'bdlxlsieordsxjnr' // Your 16-character app password
+        user: '', // Your Gmail email address
+        pass: '' // Your 16-character app password
     }
 });
 // Signup endpoint
